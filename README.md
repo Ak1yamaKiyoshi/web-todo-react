@@ -6,8 +6,4 @@
 - React router dom
 - MUI
 - Redux
-## back-end 
-- Express
-- Prisma
-- PostgreSQL
 
