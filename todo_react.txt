@@ -1,0 +1,83 @@
+
+# Техстек: 
+- Frontend: Typescript, React, Redux, MUI, React router dom, Storybook
+- Backend: Java Spring boot, PostgreSQL, gradle, JPA/Hibernate
+- Deploy: heroku 
+
+
+# Функціонал: 
+- Створити акаунт 
+- Змінити Пошту 
+- Змінити Логін
+- Змінити Пароль 
+- Видалити акаунт 
+- Додавати завдання
+- Видаляти завдання
+- Змінювати завдання
+- Виконувати завдання
+- Сховати завдання ( дедлайн зникає ) 
+- Створювати категорії 
+- Змінювати Категорії
+- Видаляти категорії 
+- Вивдити перелік завдань на будь-яку дату 
+
+# Візуал
+
+- [ ] Tap Bar 
+ - Calendar 
+ - Home 
+ - New task 
+
+- [ ] Головна сторінка 
+- [ ] Сторінка акаунту 
+ - [ ] Сторінка зміни даних акаунту 
+- [ ] Сторінка тасків сьгодні 
+ - [ ] Перелік тасків 
+ - [ ] Кнопка для переходу на наступний/попередній день 
+ - [ ] Кнпка переходу на календар
+ - [ ] Фільтри 
+  - [ ] Обрати категорію
+  - [ ] Обрати часовий проміжок
+
+## Colors 
+- Text: #0F1414
+- BG: #EEF2F2
+- Primary: #94a4f9
+- Secondary: #392e50
+- Accent: #8065E4 ( gradients )
+
+## Font 
+- 28: Overpass Regular
+- 52 96: Ubuntu Medium 500
+
+## Styling 
+# backend 
+postgresql with springboot: https://hackernoon.com/using-postgres-effectively-in-spring-boot-applications
+spring boot: https://milanwittpohl.com/projects/tutorials/Full-Stack-Web-App/the-backend-with-java-and-spring
+
+# Database:  
+- User 
+> img avatar 
+> name ( str ) 
+> user_id ( int ) 
+> login ( login )  
+> email ( str ) 
+> password ( password )
+
+- Password_Restoration_Codes
+> user_id ( int ) 
+> code ( str ) // when sening email to restore password 
+> code_deadline ( date ) 
+
+- Task 
+> task_id ( int ) 
+> user_id ( int ) 
+> comment ( str ) 
+> deadline ( date )
+> status ( bool ) 
+> hide ( bool ) 
+
+- Category
+> id ( int ) 
+> description ( str )  
+> name ( str ) 

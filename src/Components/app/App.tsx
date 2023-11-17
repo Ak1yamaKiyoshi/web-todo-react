@@ -19,10 +19,13 @@ function App() {
       variant={ButtonVariant.OUTLINED}
       size={ButtonSize.SMALL}
     >
+      <Box sx={{fontFamily: 'Ubuntu', backgroundColor: 'red'}}> 
+        <p> Hello world</p>
+
+      </Box>
 
     </Button>
     </Box>
-
 
   )
 }
