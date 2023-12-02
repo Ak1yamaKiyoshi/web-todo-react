@@ -50,7 +50,7 @@ const Task: FC<TaskProps> =({
                 </Box>
                 <Box> 
                     <Box sx={styles.buttonContainer()}>
-                        <Button 
+                        <Button
                             text="till 00:00"
                             textColor={getColors(taskColor).buttonColor}
                             color={translateColor[taskColor]}

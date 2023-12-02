@@ -25,7 +25,6 @@ const buttonColorsMap: ButtonColorsMap = {
       [ButtonTextColor.DARK]: {borderColor: 'transparent', textColor: 'textDark.primary' },
       [ButtonTextColor.LIGHT]: {borderColor: 'transparent', textColor: 'textLight.primary' },
       [ButtonTextColor.BEIGHE]: {borderColor: 'transparent', textColor: 'secondary.main' },
-      
     },
   },
   [ButtonVariant.OUTLINED]: {
