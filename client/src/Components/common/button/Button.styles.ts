@@ -25,6 +25,9 @@ export const button = (
     }),
     backgroundColor: getColors(color, variant, textColor)
         .backgroundColor,
+    '&:hover': {
+        opacity: '50%'
+    }
 });
 
 export const text = (

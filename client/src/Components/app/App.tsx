@@ -1,14 +1,13 @@
 //import { Box } from '@mui/material';
 //import Task from '../common/task/Task';
 //import { TaskColor, TaskSize } from '../common/task/types';
-import Button from '../common/button/Button';
-import { ButtonColor, ButtonSize, ButtonVariant } from '../common/button/types';
 //import {  Route, Routes } from 'react-router-dom';
-import Navbar from '../navbar/Navbar';
+import Navbar from '../common/navbar/Navbar';
 //import Task from '../common/task';
 //import { TaskColor } from '../common/task/types';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from '../pages/login-page';
+import RegisterPage from '../pages/register-page';
 
 
 function App() {
@@ -16,8 +15,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
-          <Route index element={<LoginPage />} />
-          <Route path="tasks" element={<h1>tasks </h1>} />
+          <Route path="login" element={<LoginPage/>} />
+          <Route path="register" element={<RegisterPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>

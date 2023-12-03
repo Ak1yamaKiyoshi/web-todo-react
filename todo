@@ -1,0 +1,11 @@
+
+- Email validation on registration page 
+- Separate email and password validation on login page 
+- send email verification on registration 
+- registration avatar upload
+- account page ( settings etc )
+- navbar
+- figma buttons disabled, hover, focus 
+- frontend buttons disabled, hover, focus
+- api rewrite get/post using body instead of query 
+- database store password as encrypted hash and in api compare it to hash in request on login 

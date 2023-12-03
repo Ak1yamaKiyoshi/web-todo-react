@@ -3,7 +3,7 @@
 import { SxProps, Theme } from '@mui/material/styles'
 
 
-export const loginPageContainer = (): SxProps<Theme> => ({
+export const registerPageContainer = (): SxProps<Theme> => ({
     height: 'calc(100vh - 50px)',
     margin: '0',
     width: '100%',
@@ -15,11 +15,11 @@ export const loginPageContainer = (): SxProps<Theme> => ({
 
 });
 
-export const loginPage = () : SxProps<Theme> => ({
+export const registerPage = () : SxProps<Theme> => ({
     display: 'flex',
     flexDirection: 'column',
     width: '400px',
-    height: '400px',
+    height: 'fit-content',
     padding: '20px',
     flexShrink: 0,
     alignContent: 'center',
@@ -27,7 +27,7 @@ export const loginPage = () : SxProps<Theme> => ({
     backgroundColor: 'backgroundLight.primary',
 });
 
-export const loginPageInner = (): SxProps<Theme> => ({
+export const registerPageInner = (): SxProps<Theme> => ({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -42,5 +42,4 @@ export const registerlink = (): SxProps<Theme> => ({
     color: 'accent.primary',
     opacity: '90%',
     textDecoration: 'none',
-
 });
